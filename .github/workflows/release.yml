@@ -3,6 +3,7 @@ on:
     # Sequence of patterns matched against refs/tags
     tags:
     - '*'
+  workflow_dispatch:
 
 name: Release
 
