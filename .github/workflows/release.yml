@@ -1,8 +1,11 @@
 on:
   push:
     # Sequence of patterns matched against refs/tags
-    tags:
-    - '*'
+    #tags:
+    #- '*'
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
   workflow_dispatch:
 
 name: Release
